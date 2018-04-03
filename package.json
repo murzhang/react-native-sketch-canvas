@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-sketch-canvas",
+        "scope": "@terrylinla",
+        "escapedName": "react-native-sketch-canvas",
+        "name": "react-native-sketch-canvas",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "d:\\agora\\react-native-agora-demo-master"
+    ]
+  ],
+  "_cnpm_publish_time": 1518617613526,
+  "_from": "react-native-sketch-canvas@latest",
+  "_hasShrinkwrap": false,
+  "_id": "react-native-sketch-canvas@0.3.1",
+  "_inCache": true,
+  "_location": "react-native-sketch-canvas",
+  "_nodeVersion": "8.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-sketch-canvas_0.3.1_1518617613368_0.1416316608784387"
+  },
+  "_npmUser": {
+    "name": "terrylinla",
+    "email": "terrylinla@gmail.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-sketch-canvas",
+    "scope": "@terrylinla",
+    "escapedName": "@terrylinla%2freact-native-sketch-canvas",
+    "name": "react-native-sketch-canvas",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-sketch-canvas/download/react-native-sketch-canvas-0.3.1.tgz",
+  "_shasum": "06e06c8c7eaf8dda6d4114bfffdfca92bca6cf77",
+  "_shrinkwrap": null,
+  "_spec": "react-native-sketch-canvas",
+  "_where": "d:\\agora\\react-native-agora-demo-master",
+  "author": {
+    "name": "Terry Lin"
+  },
+  "bugs": {
+    "url": "https://github.com/terrylinla/react-native-sketch-canvas/issues"
+  },
+  "dependencies": {},
+  "description": "react-native-sketch-canvas allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "06e06c8c7eaf8dda6d4114bfffdfca92bca6cf77",
+    "size": 150874,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-native-sketch-canvas/download/react-native-sketch-canvas-0.3.1.tgz"
+  },
+  "gitHead": "2d37ea4273ddc4166d5a4c798a5ef45cc7aa4c5b",
+  "homepage": "https://github.com/terrylinla/react-native-sketch-canvas#readme",
+  "keywords": [
+    "react-native",
+    "react-native-sketch",
+    "react-native-svg",
+    "react",
+    "native",
+    "sketch",
+    "svg",
+    "draw"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "terrylinla",
+      "email": "terrylinla@gmail.com"
+    }
+  ],
+  "name": "react-native-sketch-canvas",
+  "nativePackage": true,
+  "optionalDependencies": {},
+  "publish_time": 1518617613526,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrylinla/react-native-sketch-canvas.git"
+  },
+  "scripts": {},
+  "version": "0.3.1"
+}
