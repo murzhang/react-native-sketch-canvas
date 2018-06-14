@@ -1,128 +1,25 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-native-sketch-canvas",
-        "scope": "@terrylinla",
-        "escapedName": "react-native-sketch-canvas",
-        "name": "react-native-sketch-canvas",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "d:\\agora\\react-native-agora-demo-master"
-    ],
-    [
-      {
-        "raw": "https://github.com/murzhang/react-native-sketch-canvas",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "https://github.com/murzhang/react-native-sketch-canvas",
-        "spec": "git+https://github.com/murzhang/react-native-sketch-canvas.git",
-        "type": "hosted",
-        "hosted": {
-          "type": "github",
-          "ssh": "git@github.com:murzhang/react-native-sketch-canvas.git",
-          "sshUrl": "git+ssh://git@github.com/murzhang/react-native-sketch-canvas.git",
-          "httpsUrl": "git+https://github.com/murzhang/react-native-sketch-canvas.git",
-          "gitUrl": "git://github.com/murzhang/react-native-sketch-canvas.git",
-          "shortcut": "github:murzhang/react-native-sketch-canvas",
-          "directUrl": "https://raw.githubusercontent.com/murzhang/react-native-sketch-canvas/master/package.json"
-        }
-      },
-      "d:\\USEABCV2\\SourceCode\\YSApp"
-    ]
-  ],
-  "_cnpm_publish_time": 1518617613526,
-  "_from": "git+https://github.com/murzhang/react-native-sketch-canvas.git",
-  "_hasShrinkwrap": false,
-  "_id": "react-native-sketch-canvas@0.3.1",
-  "_inCache": true,
-  "_location": "/react-native-sketch-canvas",
-  "_nodeVersion": "8.9.1",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/react-native-sketch-canvas_0.3.1_1518617613368_0.1416316608784387"
-  },
-  "_npmUser": {
-    "name": "terrylinla",
-    "email": "terrylinla@gmail.com"
-  },
-  "_npmVersion": "4.6.1",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "https://github.com/murzhang/react-native-sketch-canvas",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "https://github.com/murzhang/react-native-sketch-canvas",
-    "spec": "git+https://github.com/murzhang/react-native-sketch-canvas.git",
-    "type": "hosted",
-    "hosted": {
-      "type": "github",
-      "ssh": "git@github.com:murzhang/react-native-sketch-canvas.git",
-      "sshUrl": "git+ssh://git@github.com/murzhang/react-native-sketch-canvas.git",
-      "httpsUrl": "git+https://github.com/murzhang/react-native-sketch-canvas.git",
-      "gitUrl": "git://github.com/murzhang/react-native-sketch-canvas.git",
-      "shortcut": "github:murzhang/react-native-sketch-canvas",
-      "directUrl": "https://raw.githubusercontent.com/murzhang/react-native-sketch-canvas/master/package.json"
-    }
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/murzhang/react-native-sketch-canvas.git#b6674d41555815ff707f30e2fd4693073d448f6f",
-  "_shasum": "6d88099cd3fa8f0b6c002f76b794114fb27a6299",
-  "_shrinkwrap": null,
-  "_spec": "https://github.com/murzhang/react-native-sketch-canvas",
-  "_where": "d:\\USEABCV2\\SourceCode\\YSApp",
-  "author": {
-    "name": "Terry Lin"
-  },
-  "bugs": {
-    "url": "https://github.com/terrylinla/react-native-sketch-canvas/issues"
-  },
-  "dependencies": {},
-  "description": "react-native-sketch-canvas allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "06e06c8c7eaf8dda6d4114bfffdfca92bca6cf77",
-    "size": 150874,
-    "noattachment": false,
-    "tarball": "http://registry.npm.taobao.org/react-native-sketch-canvas/download/react-native-sketch-canvas-0.3.1.tgz"
-  },
-  "gitHead": "2d37ea4273ddc4166d5a4c798a5ef45cc7aa4c5b",
-  "homepage": "https://github.com/terrylinla/react-native-sketch-canvas#readme",
-  "keywords": [
-    "react-native",
-    "react-native-sketch",
-    "react-native-svg",
-    "react",
-    "native",
-    "sketch",
-    "svg",
-    "draw"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "terrylinla",
-      "email": "terrylinla@gmail.com"
-    }
-  ],
   "name": "react-native-sketch-canvas",
-  "nativePackage": true,
-  "optionalDependencies": {},
-  "publish_time": 1518617613526,
-  "readme": "ERROR: No README data found!",
+  "version": "1.0.0",
+  "description": "react-native-sketch-canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terrylinla/react-native-sketch-canvas.git"
+    "url": "git+https://github.com/murzhang/react-native-sketch-canvas.git"
   },
-  "scripts": {},
-  "version": "0.3.1"
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "live",
+    "agoraio"
+  ],
+  "author": "xueyongbo <121521977@QQ.com> (https://github.com/murzhang)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }
