@@ -15,6 +15,7 @@ import ReactNative, {
   processColor
 } from 'react-native'
 
+
 const RNSketchCanvas = requireNativeComponent('RNSketchCanvas', SketchCanvas, {
   nativeOnly: {
     nativeID: true,
@@ -62,7 +63,10 @@ class SketchCanvas extends React.Component {
     this._screenScale = Platform.OS === 'ios' ? 1 : Dimensions.get('window').scale
     this._offset = { x: 0, y: 0 }
     this._size = { width: 0, height: 0 }
-    this._initialized = false
+    this._initialized = false;
+    let info=Dimensions.get('window');
+    this._height= info.height;
+    this._width=info.width;
   }
 
   clear() {
@@ -141,6 +145,10 @@ class SketchCanvas extends React.Component {
       onPanResponderGrant: (evt, gestureState) => {
         if (!this.props.touchEnabled) return
         const e = evt.nativeEvent
+        if(e.pageY<=15||this._height-e.pageY<=10){
+          return;
+        }//fiexed
+
         this._offset = { x: e.pageX - e.locationX, y: e.pageY - e.locationY }
         this._path = {
           id: parseInt(Math.random() * 100000000), color: this.props.strokeColor, 

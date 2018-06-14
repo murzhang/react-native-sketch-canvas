@@ -18,7 +18,7 @@ RCT_EXPORT_MODULE()
 RCT_EXPORT_VIEW_PROPERTY(onChange, RCTBubblingEventBlock);
 
 #pragma mark - Lifecycle
-
+/*
 - (instancetype)init
 {
     if ((self = [super init])) {
@@ -27,12 +27,12 @@ RCT_EXPORT_VIEW_PROPERTY(onChange, RCTBubblingEventBlock);
 
     return self;
 }
-
+*/
 - (UIView *)view
 {
-    if (!self.sketchCanvasView) {
+    //if (!self.sketchCanvasView) {
         self.sketchCanvasView = [[RNSketchCanvas alloc] initWithEventDispatcher: self.bridge.eventDispatcher];
-    }
+    //}
 
     return self.sketchCanvasView;
 }
