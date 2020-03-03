@@ -108,6 +108,10 @@ export default class extends React.Component {
     this._strokeWidthStep = props.strokeWidthStep
   }
 
+  changeStrokeColor(color) {
+    this.setState({ color: { color } })
+  }
+
   clear() {
     this._sketchCanvas.clear()
   }
